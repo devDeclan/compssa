@@ -1,0 +1,38 @@
+{
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "eject": "expo eject",
+        "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+        "preset": "jest-expo"
+    },
+    "dependencies": {
+        "@expo/samples": "2.1.1",
+        "@valdio/react-native-scrollable-tabview": "^0.8.11",
+        "expo": "^32.0.0",
+        "faker": "^4.1.0",
+        "react": "16.5.0",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+        "react-native-camera-roll-picker": "^1.3.0",
+        "react-native-gifted-chat": "^0.8.2",
+        "react-native-keyboard-aware-scroll-view": "^0.8.0",
+        "react-native-keyboard-spacer": "^0.4.1",
+        "react-native-modal": "^11.0.1",
+        "react-native-nav": "^2.0.2",
+        "react-native-pagination": "^1.5.5",
+        "react-native-paper": "^2.15.2",
+        "react-native-vector-icons": "^6.4.2",
+        "react-navigation": "^3.0.9",
+        "react-navigation-material-bottom-tabs": "^1.0.0",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "babel-preset-expo": "^5.0.0",
+        "jest-expo": "^32.0.0"
+    },
+    "private": true
+}
